@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MoneyManagement</string>
+    <string name="totalMoney">₹10000</string>
+</resources>
