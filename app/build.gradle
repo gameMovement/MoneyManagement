@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.moneymanagement"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -51,6 +51,6 @@ dependencies {
     // sdp library
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
 
-    //Pie Chart
-    implementation 'com.github.philJay:MpAndroidChart:v2.2.4'
+//    //Pie Chart
+//    implementation 'com.github.philJay:MpAndroidChart:v2.2.4'
 }

@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MoneyManagement/app/src/main/res/drawable/asdfg.xml" value="0.1645" />
+        <entry key="..\:/MoneyManagement/app/src/main/res/drawable/header_name_shape.xml" value="0.1645" />
         <entry key="..\:/MoneyManagement/app/src/main/res/drawable/ic_account_spinner.xml" value="0.1645" />
         <entry key="..\:/MoneyManagement/app/src/main/res/drawable/ic_headhome.xml" value="0.1645" />
         <entry key="..\:/MoneyManagement/app/src/main/res/drawable/ic_menu.xml" value="0.1645" />
-        <entry key="..\:/MoneyManagement/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/MoneyManagement/app/src/main/res/layout/activity_main.xml" value="0.152" />
       </map>
     </option>
   </component>
