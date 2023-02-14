@@ -1,9 +1,8 @@
-package com.example.moneymanagement
+package com.example.moneymanagement.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import com.example.moneymanagement.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,14 +23,23 @@ class MainActivity : AppCompatActivity() {
         binding.btnAddIncome.setOnClickListener {
 
 
-            var intent = Intent(this, AddInExActivity::class.java)
+            val intent = Intent(this, AddInExActivity::class.java)
             intent.putExtra("type", "Income")
             startActivity(intent)
         }
         binding.btnAddExpense.setOnClickListener {
-            var intent = Intent(this, AddInExActivity::class.java)
+            val intent = Intent(this, AddInExActivity::class.java)
             intent.putExtra("type", "Expense")
             startActivity(intent)
         }
+        binding.btnStatement.setOnClickListener {
+            val intent = Intent(this, StatementActivity::class.java)
+            startActivity(intent)
+        }
+        binding.imgPieChart.setOnClickListener {
+            val intent = Intent(this, ChartActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

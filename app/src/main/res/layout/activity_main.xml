@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
 
     <LinearLayout
@@ -44,7 +44,7 @@
             android:background="@drawable/header_name_shape"
             android:gravity="center"
             android:orientation="vertical"
-            android:paddingHorizontal="@dimen/_10sdp">
+            android:paddingHorizontal="@dimen/_30sdp">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/txtUserName"
@@ -89,6 +89,7 @@
             android:src="@drawable/ic_add_expense" />
 
         <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnStatement"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -101,6 +102,7 @@
         android:layout_marginTop="@dimen/_20sdp">
 
         <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgPieChart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
