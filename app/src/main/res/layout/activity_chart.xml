@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ChartActivity">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_marginHorizontal="@dimen/_45sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/statement_shape"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:text="@string/all"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:background="@drawable/statement_shape"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:paddingVertical="@dimen/_1sdp"
+            android:text="@string/income"
+            android:textSize="@dimen/_15ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/statement_shape"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:textColor="@color/black"
+            android:text="@string/expense"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/statement_shape"
+            android:textColor="@color/black"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:text="@string/day_Statement"
+            android:textSize="@dimen/_15ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:background="@drawable/statement_shape"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:text="@string/week_statement"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:background="@drawable/statement_shape"
+            android:textColor="@color/black"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:text="@string/month_Statement"
+            android:textSize="@dimen/_15ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/statement_shape"
+            android:textColor="@color/black"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:text="@string/year_Statement"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
+
+</LinearLayout>
